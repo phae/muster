@@ -1,0 +1,18 @@
+This was just a hangover from something I'd made for a demo at work.  I thought it might come in handy as a basic slideshow thing.  It's super basic and not very feature complete yet.  I've only tested it against jquery 1.7.
+
+Basic usage:
+
+Call muster() on a nodelist - each item will be assumed to be a 'slide', so you'll probably want to call it on a set of divs, sections or list items etc.
+
+$("ol.deck li").muster({navigation: "nav a", keyevents: true, urls: false, fullheight: true});
+
+It has some basic options (with defaults shown):
+
+
+{
+	navigation: "nav a", // if you want some navigation, just say where that is in the page.  Your anchors should match your hrefs (best for non-JS anyway)
+	keyevents: true, // enabled next/back on left/right keys, and next slide on spacebar too
+	urls: false, // updates the address bar, using pushState, to match the ID of the current slide element
+	fullheight: true // sets the height of the slides to full port height 
+}
+
