@@ -1,20 +1,6 @@
-/*jQuery(document).ready(function() {
-  
-  $("body").addClass("js-enabled");
-
-  $("ol li.principle").muster({navigation: "nav a", keyevents: true, urls: false, fullheight: true});
-
-});*/
-
-
-
-/* 
-
-Call .muster() on a set of elements
-Expects you to do the full width / shadows etc. in your own CSS.
-For nav to work, your anchors should match your hrefs (which'll still be useful sans JS).
-For best results, specify image heights in CSS/attr to make sure heights are best calced
-*/
+/* muster jquery plugin
+ Frances Berriman, 2012
+ */
 
 (function($) {
   
